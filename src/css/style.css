@@ -1,0 +1,35 @@
+.searchForm {
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    height: 110px;
+    width: 120px;
+}
+
+.image-align {
+    margin-bottom: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+#result-section {
+    margin-bottom: 20px;
+}
+
+#result-section h3 {
+    font-size: 20px;
+}
+#result-section h3 span {
+    font-size: 14px;
+}
+
+.form-container {
+    display: inline-flex;
+}
+
+#error-section {
+    display: none;
+    text-align: center;
+    font-size: 18px;
+}

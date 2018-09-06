@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <head>
+    <title>Movie App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="searchForm">
+        <img src="assets/logo.png" class="header-logo image-align">
+      <div class="container text-center">
+          <div class="form-container">
+            <input type="text" class="form-control" size="50" id="searchText" placeholder="Enter Movie Name..">
+            <button type="button" id="search" class="btn btn-success">Search</button>
+          </div>
+      </div>
+    </div>
+
+    <div class="container" >
+        <img src="assets/loader.gif" class="image-align" id="loader"/>
+        <div class="row" id="result-section"></div>
+        <div id="error-section">
+          <p>Oops! Your Search did not match any results.</p>
+        </div>        
+    </div>
+
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>

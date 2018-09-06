@@ -1,0 +1,40 @@
+{
+  "name": "movieappweek2",
+  "version": "1.0.0",
+  "description": "Movie App to search movies created using ES6 classes.",
+  "main": "./src/js/app.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManjushaRamakrishnan/MovieAppWeek2.git"
+  },
+  "keywords": [
+    "movieApp",
+    "es6",
+    "bootstrap",
+    "html5",
+    "javascript",
+    "css"
+  ],
+  "author": "Manjusha Ramakrishnan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "jquery": "3.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "2.24.3",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.19.1",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
